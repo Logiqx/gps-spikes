@@ -24,9 +24,9 @@ Summary of the processing:
 - Total points = 12,110,508
 - Total distance = 83,014.53 km
 
-27 of the files included speeds exceeding 40 knots, equating to around 1% of the files. More than half of these files contained genuine 40 knot speeds on the water and two of the tracks included vehicle speeds that were several miles away.
+27 of the files included speeds exceeding 40 knots, equating to around 1% of the files. More than half of these files contained genuine 40 knot speeds on the water and two of the files included vehicle speeds that were several miles away.
 
-The remaining 10 tracks contained spikes exceeding 40 knots. The spikes within these files are all handled by the existing filters in GPSResults, GpsarPro and GPS Speedreader. The filenames and the filters are listed below:
+The remaining 10 files contained spikes exceeding 40 knots. The spikes within these files are all handled by the existing filters in GPSResults, GpsarPro and GPS Speedreader. The filenames and the filters are listed below:
 
 | File                                       | m/s    | knots  | km/h    | Filters | sAcc  | Sats | HDOP |
 | ------------------------------------------ | -----: | -----: | ------: | :-----: | ----: | :--: | --: |
