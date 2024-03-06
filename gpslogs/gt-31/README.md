@@ -2,13 +2,13 @@
 
 ### Weymouth Speed Week
 
-The folder "wsw" contains 10 files that were identified using a Python script within [GPS Wizard](https://logiqx.github.io/gps-wizard/).
+The folder "wsw" contains 10 files that were identified using a Python script within the [GPS Wizard](https://logiqx.github.io/gps-wizard/) project.
 
 
 
 #### Method
 
-The script searches all of the historical SBN files, looking for speeds in excess of 40 knots. Geofencing is applied so that vehicle speeds in excess of 40 knots are ignored. The results include files where the board speed exceeded 40 knots and files including spikes exceeding 40 knots.
+The Python script processes all of the historical SBN files, searching for speeds in excess of 40 knots. Geofencing is applied so that vehicle speeds in excess of 40 knots are ignored. The results include files where the board speed exceeded 40 knots, plus files containing spikes in excess of 40 knots.
 
 The image below illustrates the geofencing, marked in blue:
 
@@ -24,9 +24,9 @@ Summary of the processing:
 - Total points = 12,110,508
 - Total distance = 83,014.53 km
 
-27 of the files included speeds exceeding 40 knots, equating to around 1% of the files. More than half of these files contained genuine 40 knot speeds on the water and two of the files included vehicle speeds that were several miles away.
+27 of the files included speeds in excess of 40 knots, equating to around 1% of the files. More than half of these files contained genuine speeds on the water and two of the files included speeds of motor vehicles that were several miles away.
 
-The remaining 10 files contained spikes exceeding 40 knots. The spikes within these files are all handled by the existing software filters. The table below lists the 10 files containing spikes and the filters applied by GPS Speedreader:
+The remaining 10 files contained spikes in excess of 40 knots. The spikes within these files are all handled by the existing software filters. The table below lists the 10 files containing spikes and the filters applied by GPS Speedreader:
 
 | File                                       | m/s    | knots  | km/h    | Filters | sAcc  | Sats | HDOP |
 | ------------------------------------------ | -----: | -----: | ------: | :-----: | ----: | :--: | --: |
@@ -40,6 +40,13 @@ The remaining 10 files contained spikes exceeding 40 knots. The spikes within th
 | WIGGAWOOKIE_123201104_20121010_100627.SBN  | 40.32  | 78.38  | 145.15  | T+      | 2.449 | 6    | 1.6  |
 | WSW  18_932000559_20121009_104151.SBN      | 29.89  | 58.10  | 107.60  | T+      | 4.957 | 5    | 3.0  |
 | WSWAFOUR_932000173_20121009_092850.SBN     | 398.44 | 774.51 | 1434.38 | A       | 1.419 | 8    | 1.0  |
+
+The filters applied by GPS Speedreader are as follows:
+
+- T = time difference > 1 second
+- S = number of satellites < 5
+- \+ = standard deviation of speed (SDOS) > 2.0 m/s
+- A = acceleration > 4 m/s
 
 
 
