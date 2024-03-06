@@ -28,7 +28,7 @@ Summary of the processing:
 
 The remaining 10 files contained spikes in excess of 40 knots. The spikes within these files are all handled by the existing software filters. The table below lists the 10 files containing spikes and the filters applied by GPS Speedreader:
 
-| File                                       | m/s    | knots  | km/h    | Filters | sAcc  | Sats | HDOP |
+| File                                       | m/s    | knots  | km/h    | Filters | SDOS | Sats | HDOP |
 | ------------------------------------------ | -----: | -----: | ------: | :-----: | ----: | :--: | --: |
 | 206MALLMAN_113200495_20111018_131156.SBN   | 24.65  | 47.92  | 88.74   | T       | 1.827 | 9    | 1.2  |
 | CONNE2GARRY_133200827_20191009_102438.SBN  | 29.95  | 58.22  | 107.82  | TS      | 1.497 | 4    | 2.2  |
@@ -48,10 +48,12 @@ The filters applied by GPS Speedreader are as follows:
 - \+ = standard deviation of speed (SDOS) > 2.0 m/s
 - A = acceleration > 4 m/s
 
+It is notable that 9 of the spikes are detected by the time filter. The spikes typically occur after a loss of signal and affect the very first reading, once logging is resumed. The SDOS values don't really indicate of the magnitude of the spikes, but they clearly indicate the presence of issues.
+
 
 
 #### Conclusions
 
 The GT-31 doesn't produce a lot of large spikes on the water. Only 0.37% of the WSW files between 2011 and 2022 contained spikes in excess of 40 knots.
 
-Existing software filters are very capable of eliminating these spikes from calculated results, so no further work is required.
+Existing software filters are very capable of eliminating these spikes from calculated results, so no further work is required for these particular files.
