@@ -1,6 +1,6 @@
-## GT-31
+## Weymouth Speed Week
 
-### Weymouth Speed Week
+### GT-31
 
 The folder "wsw" contains 10 files that were identified using a Python script within the [GPS Wizard](https://logiqx.github.io/gps-wizard/) project.
 

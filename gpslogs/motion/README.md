@@ -1,6 +1,6 @@
-## Motion Mini
+## Weymouth Speed Week
 
-### Weymouth Speed Week
+### Motion Mini
 
 The folder "wsw" contains 75 files that were identified using a Python script within the [GPS Wizard](https://logiqx.github.io/gps-wizard/) project.
 
