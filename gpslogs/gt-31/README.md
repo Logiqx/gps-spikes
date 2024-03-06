@@ -18,11 +18,11 @@ The image below illustrates the geofencing, marked in blue:
 
 #### Results
 
-Summary of processing
+Summary of the processing:
 
-- Files = 2,725
-- Points = 12,110,508
-- Distance = 83,014.53 km
+- Total files = 2,725
+- Total points = 12,110,508
+- Total distance = 83,014.53 km
 
 27 of the files included speeds exceeding 40 knots, equating to around 1% of the files. More than half of these files contained genuine 40 knot speeds on the water and two of the tracks included vehicle speeds that were several miles away.
 
