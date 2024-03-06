@@ -2,7 +2,7 @@
 
 ### Motion Mini
 
-The folder "wsw" contains 75 files that were identified using a Python script within the [GPS Wizard](https://logiqx.github.io/gps-wizard/) project.
+The "wsw" folder contains 75 files that were identified using a Python script within the [GPS Wizard](https://logiqx.github.io/gps-wizard/) project.
 
 
 
