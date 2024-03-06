@@ -126,6 +126,6 @@ The standard software filters ensure these spikes are ignored, but the fact rema
 
 #### Next Steps
 
-Positional data resembling alien abductions is somewhat undesirable, and so are speeds of many hundreds of knots. Whilst the u-blox issues from inside the WPNSA building does not affect the results of Weymouth Speed Week, eliminating the data issues would be highly desirable.
+Positional data resembling alien abductions is somewhat undesirable, and so are speeds of many hundreds of knots. Whilst the u-blox issues from inside the WPNSA building do not affect the results of Weymouth Speed Week, eliminating these data issues would be highly desirable.
 
 Since these accuracy issues affect approximately 20% of the WSW sessions, further investigations have been undertaken. The investigations have been documented in a separate project and an effective solution has been identified, potentially useful beyond Weymouth Speed Week.
