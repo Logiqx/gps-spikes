@@ -47,4 +47,4 @@ The remaining 10 files contained spikes exceeding 40 knots. The spikes within th
 
 The GT-31 doesn't produce a lot of large spikes on the water. Only 0.37% of the WSW files between 2011 and 2022 contained spikes in excess of 40 knots.
 
-Existing software filters are very capable of eliminating these spikes from calculated results so no further work is required.
+Existing software filters are very capable of eliminating these spikes from calculated results, so no further work is required.
