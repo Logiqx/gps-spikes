@@ -20,7 +20,7 @@ The image below illustrates the geofencing, marked in blue:
 
 Summary of the processing:
 
-- Total files = 2,725
+- Total SBN files = 2,725
 - Total points = 12,110,508
 - Total distance = 83,014.53 km
 
@@ -28,18 +28,18 @@ Summary of the processing:
 
 The remaining 10 files contained spikes in excess of 40 knots. The spikes within these files are all handled by the existing software filters. The table below lists the 10 files containing spikes and the filters applied by GPS Speedreader:
 
-| File                                       | m/s    | knots  | km/h    | Filters | SDOS | Sats | HDOP |
-| ------------------------------------------ | -----: | -----: | ------: | :-----: | ----: | :--: | --: |
-| 206MALLMAN_113200495_20111018_131156.SBN   | 24.65  | 47.92  | 88.74   | T       | 1.827 | 9    | 1.2  |
-| CONNE2GARRY_133200827_20191009_102438.SBN  | 29.95  | 58.22  | 107.82  | TS      | 1.497 | 4    | 2.2  |
-| GARRE67DAVID_103201606_20121009_145611.SBN | 20.63  | 40.10  | 74.27   | TS      | 1.497 | 4    | 2.2  |
-| Hardy41James_932000585_20151006_095149.SBN | 22.19  | 43.13  | 79.88   | T+      | 2.780 | 6    | 2.0  |
-| Jenki36Paul_932000540_20171015_095602.SBN  | 24.64  | 47.90  | 88.70   | TS+     | 4.957 | 4    | 2.8  |
-| K888_123201112_20121009_085502.SBN         | 42.04  | 81.72  | 151.34  | TA+     | 3.071 | 7    | 0.8  |
-| Penna65Robin_113200494_20141023_090602.SBN | 21.75  | 42.28  | 78.30   | T+      | 2.605 | 7    | 1.2  |
-| WIGGAWOOKIE_123201104_20121010_100627.SBN  | 40.32  | 78.38  | 145.15  | T+      | 2.449 | 6    | 1.6  |
-| WSW  18_932000559_20121009_104151.SBN      | 29.89  | 58.10  | 107.60  | T+      | 4.957 | 5    | 3.0  |
-| WSWAFOUR_932000173_20121009_092850.SBN     | 398.44 | 774.51 | 1434.38 | A       | 1.419 | 8    | 1.0  |
+| File                                       | m/s    | knots  | km/h    | SDOS (m/s) | HDOP | Sats | Filters |
+| ------------------------------------------ | -----: | -----: | ------: | ----: | --: | :--: | :-----: |
+| 206MALLMAN_113200495_20111018_131156.SBN   | 24.65  | 47.92  | 88.74   | 1.827 | 1.2  | 9    | T       |
+| CONNE2GARRY_133200827_20191009_102438.SBN  | 29.95  | 58.22  | 107.82  | 1.497 | 2.2  | 4    | TS      |
+| GARRE67DAVID_103201606_20121009_145611.SBN | 20.63  | 40.10  | 74.27   | 1.497 | 2.2  | 4    | TS      |
+| Hardy41James_932000585_20151006_095149.SBN | 22.19  | 43.13  | 79.88   | 2.780 | 2.0  | 6    | T+      |
+| Jenki36Paul_932000540_20171015_095602.SBN  | 24.64  | 47.90  | 88.70   | 4.957 | 2.8  | 4    | TS+     |
+| K888_123201112_20121009_085502.SBN         | 42.04  | 81.72  | 151.34  | 3.071 | 0.8  | 7    | TA+     |
+| Penna65Robin_113200494_20141023_090602.SBN | 21.75  | 42.28  | 78.30   | 2.605 | 1.2  | 7    | T+      |
+| WIGGAWOOKIE_123201104_20121010_100627.SBN  | 40.32  | 78.38  | 145.15  | 2.449 | 1.6  | 6    | T+      |
+| WSW  18_932000559_20121009_104151.SBN      | 29.89  | 58.10  | 107.60  | 4.957 | 3.0  | 5    | T+      |
+| WSWAFOUR_932000173_20121009_092850.SBN     | 398.44 | 774.51 | 1434.38 | 1.419 | 1.0  | 8    | A       |
 
 The filters applied by GPS Speedreader are as follows:
 
