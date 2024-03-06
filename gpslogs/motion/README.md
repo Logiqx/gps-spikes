@@ -24,14 +24,15 @@ Summary of the processing:
 - Total points = 8,192,357
 - Total distance = 13,333.35 km
 
-12 of these files contained genuine 40 knot speeds whilst afloat, and one file included a vehicle journey that was several miles away. These files were easily identified by the low values for sAcc / hAcc / HDOP and 19+ satellites, whilst 40+ knots was being reported.
+12 of these files contain genuine 40 knot speeds whilst afloat, and one file includes a vehicle journey that was several miles away. These files are easily identified by the low values for sAcc / hAcc / HDOP and 19+ satellites, whilst 40+ knots was being reported.
 
-The remaining 73 files contained spikes in excess of 40 knots, equating to 20% of the files scanned. 3 of the files contained spikes whilst afloat, and 70 of the files contained spikes whilst ashore. The majority of spikes whilst ashore were due to the the Motions being inside the WPNSA building.
+75 files contain spikes in excess of 40 knots, equating to 20% of the files scanned. Just 3 of the files contain spikes whilst afloat, but 72 of the files contain spikes whilst ashore. The majority of the spikes whilst ashore are due to the the Motions being inside the WPNSA building.
 
-The following table lists the files containing spikes in excess of 40 knots (70 afloat and 3 ashore), plus the accuracy estimates at the time:
+The following table lists the 75 files containing spikes in excess of 40 knots (72 afloat and 3 ashore), plus the accuracy estimates at the time:
 
 | File                              |    m/s |  knots |    km/h | sAcc (m/s) | hAcc (m) |  HDOP | Sats |
 | --------------------------------- | -----: | -----: | ------: | ---------: | -------: | ----: | :--: |
+| ADC838MIA_838_20231007_104540.oao |  49.43 |  96.09 |  177.96 |      92.77 |   814.53 | 55.40 |  5   |
 | ARN833PAU_833_20231013_092448.oao | 153.37 | 298.13 |  552.14 |     906.43 |  9908.97 | 99.99 |  4   |
 | BUK829MAC_829_20231013_082820.oao |  46.63 |  90.64 |  167.87 |      81.64 |  1124.23 | 40.94 |  4   |
 | BUL841JAM_841_20231012_095438.oao | 353.91 | 687.94 | 1274.07 |     328.29 |  1261.58 | 83.72 |  4   |
@@ -75,6 +76,7 @@ The following table lists the files containing spikes in excess of 40 knots (70 
 | PIN816JOS_816_20231013_082448.oao | 146.49 | 284.76 |  527.37 |     128.44 |  1655.97 | 79.72 |  4   |
 | SAL724MAR_724_20231007_102632.oao |  78.81 | 153.19 |  283.71 |      43.78 |   749.79 | 28.49 |  4   |
 | SAL724MAR_724_20231012_101210.oao |  68.07 | 132.32 |  245.06 |     118.20 |   833.18 | 18.84 |  4   |
+| SPE814NEI_814_20231011_114020.oao |  24.20 |  47.04 |   87.11 |      12.12 |    88.18 | 10.85 |  5   |
 | STA818JOH_818_20231007_102602.oao |  88.18 | 171.40 |  317.43 |      78.08 |   753.72 | 36.40 |  4   |
 | STA867SCO_867_20231007_102940.oao |  21.48 |  41.75 |   77.32 |      35.79 |   411.37 | 19.47 |  4   |
 | STA867SCO_867_20231011_094740.oao | 127.08 | 247.02 |  457.48 |      95.68 |   739.12 | 43.40 |  4   |
@@ -124,6 +126,6 @@ The standard software filters ensure these spikes are ignored, but the fact rema
 
 #### Next Steps
 
-Positional data resembling alien abductions are somewhat undesirable, and so are speeds in excess of 790 knots. Whilst the data issues from inside the WPNSA building do not affect the actual results of Weymouth Speed Week, ensuring they are not present in the OAO files is very desirable.
+Positional data resembling alien abductions is somewhat undesirable, and so are speeds of many hundreds of knots. Whilst the u-blox issues from inside the WPNSA building does not affect the results of Weymouth Speed Week, eliminating the data issues would be highly desirable.
 
-Since these accuracy issues affect approximately 20% of the WSW sessions, further investigations have been undertaken. The investigations have been documented in a separate project and a nice solution has been identified, potentially useful to several different u-blox receivers.
+Since these accuracy issues affect approximately 20% of the WSW sessions, further investigations have been undertaken. The investigations have been documented in a separate project and an effective solution has been identified, potentially useful beyond Weymouth Speed Week.
