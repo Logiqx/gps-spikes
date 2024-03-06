@@ -114,13 +114,15 @@ It should be noted that the table above is only showing the highest speeds prese
 
 #### Example
 
-The screenshot shows DUN813ROB_813_20231013_094502.OAO in GPS Speedreader but without the standard software filters.
+The screenshot shows DUN813ROB_813_20231013_094502.oao in GPS Speedreader but without the standard software filters.
 
 The max 2 sec is 359.75 knots +/- 391.86 knots and the positional data is also badly affected.
 
 The standard software filters ensure these spikes are ignored, but the fact remains that the OAO files contain these issues.
 
 ![DUN813ROB_813_20231013_094502](img/DUN813ROB_813_20231013_094502.png)
+
+Note: The sAcc graph at the bottom of the screenshot contains a number of artifacts. They are a result of the custom WSW firmware that only records data points when SOG exceeds 5 knots. GPS Speedreader reports the sAcc as 3.998 for missing data points.
 
 
 
