@@ -26,7 +26,7 @@ Summary of the processing:
 
 12 of these files contain genuine 40 knot speeds whilst afloat, and one file includes a vehicle journey that was several miles away. These files are easily identified by the low values for sAcc / hAcc / HDOP and 19+ satellites, whilst 40+ knots was being reported.
 
-75 files contain spikes in excess of 40 knots, equating to 20% of the files scanned. Just 3 of the files contain spikes whilst afloat, but 72 of the files contain spikes whilst ashore. The majority of the spikes whilst ashore are due to the the Motions being inside the WPNSA building.
+75 files contain spikes in excess of 40 knots, equating to 20% of the files scanned. Just 2 of the files contain spikes whilst afloat, but 73 of the files contain spikes whilst ashore. The majority of the spikes whilst ashore are due to the the Motions being inside the WPNSA building.
 
 The following table lists the 75 files containing spikes in excess of 40 knots (72 afloat and 3 ashore), plus the accuracy estimates at the time:
 
