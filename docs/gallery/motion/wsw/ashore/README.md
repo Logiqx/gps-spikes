@@ -1,5 +1,5 @@
 ## GPS Spikes
-### ashore
+### motion/wsw/ashore
 
 - [ADC838MIA_838_20231007_104540.oao](ADC838MIA_838_20231007_104540.oao/index.html)
 - [ARN833PAU_833_20231013_092448.oao](ARN833PAU_833_20231013_092448.oao/index.html)

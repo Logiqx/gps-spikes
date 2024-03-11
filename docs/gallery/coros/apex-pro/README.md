@@ -1,5 +1,5 @@
 ## GPS Spikes
-### apex-pro
+### coros/apex-pro
 
 - [Nagele_Speedsurfing20220513142338.fit](Nagele_Speedsurfing20220513142338.fit/index.html)
 - [Speedsurfing20221015120552.fit](Speedsurfing20221015120552.fit/index.html)

@@ -1,5 +1,5 @@
 ## GPS Spikes
-### afloat
+### motion/wsw/afloat
 
 - [CAR853MAR_853_20231011_113150.oao](CAR853MAR_853_20231011_113150.oao/index.html)
 - [HOR705PHI_705_20231010_095618.oao](HOR705PHI_705_20231010_095618.oao/index.html)
